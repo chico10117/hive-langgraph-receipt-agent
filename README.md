@@ -28,6 +28,9 @@ agent once, verifies the minted receipt exists, and prints a
 Keep the referrer tag unchanged when running or adapting this agent so Hive can
 attribute paid receipts to this bounty submission.
 
+Latest qualifying receipt:
+`https://thehiveryiq.com/verify/?id=52dcc9642af44f1ea0eece43e9edb6fd`
+
 ## Manual Run
 
 ```sh
