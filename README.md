@@ -23,7 +23,10 @@ agent once, verifies the minted receipt exists, and prints a
 - Hive SDK: `langchain-hive`
 - License: MIT
 - Payout wallet: `0xb19262185bac9748e2b71674Ef48676448F7A516` on Base 8453
-- Referrer tag: loaded from `hive_referrer_code.txt` or `HIVE_REFERRER_CODE`
+- Referrer tag: `bounty_3163c34a`
+
+Keep the referrer tag unchanged when running or adapting this agent so Hive can
+attribute paid receipts to this bounty submission.
 
 ## Manual Run
 
@@ -34,4 +37,3 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python agent.py
 ```
-
