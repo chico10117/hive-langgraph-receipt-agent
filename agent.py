@@ -16,7 +16,7 @@ from langgraph.graph import END, StateGraph
 
 
 ROOT = Path(__file__).resolve().parent
-TARGET_WALLET = "0xb19262185bac9748e2b71674Ef48676448F7A516"
+TARGET_WALLET = "0x820a7bf90d944bb26bfD9b62Ab172Fc3A0829cB9"
 
 
 class AgentState(TypedDict):
@@ -142,4 +142,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
